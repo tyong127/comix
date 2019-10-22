@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+  }
+  .container {
+    padding: 50px;
+    
+    flex-wrap: wrap;
+    background: black;
+  }
+  div {
+   
+    border: 1px solid black;
+    overflow: hidden;
+    
+    margin: 10px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1s;
+  }
+  img:hover {
+    transform: scale(2);
+  }
+  
+  .first {
+    width: 300px;
+  }
+  
+  .second {
+    width: 500px;
+    height: 300px;
+  }
+  
+  .third {
+    width: 800px;
+    height: 200px;
+  }
+
+  .four {
+      width: 400px;
+      height: 350px;
+  }
+
+  .five {
+      width: 400px;
+      height: 350px;
+  }
+
+  .first-rote {
+      display: flex;
+  }
+
+.third-rote {
+    display: flex;
+}
